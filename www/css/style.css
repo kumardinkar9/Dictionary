@@ -1,0 +1,55 @@
+/* Empty. Add your own CSS if you like */
+.scroll.padding{
+	height: 100%;
+}
+.spinner svg {
+  width: 28px;
+  height: 28px;
+  stroke: #444;
+  fill: #444;
+}
+.loader{
+    height: 100%;
+    width: 100%;
+}
+#dictionaryForm label input {
+    width: 95%;
+    float: left;
+}
+#dictionaryForm label div.microphone {
+    width: 5%;
+    float: left;
+    border: none;
+    background: none;
+}
+.spinner-energized{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.ion-android-microphone{
+  font-size: 20px;
+  cursor: pointer;
+}
+.play-icon {
+    top: 2px;
+    position: relative;
+    left: 5px;
+}
+.text{
+	font-size: 20px;
+    text-transform: uppercase;
+}
+.phonetic{
+	position: relative;
+    top: -2px;
+}
+.errorMsg{
+	color: red;
+	position: relative;
+    top: 4px;
+}
+form.ng-invalid.ng-submitted .text-form{
+	border: 2px solid red;
+}
